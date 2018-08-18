@@ -15,7 +15,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "ENERGETIC-IT"
+title                    : "Energetic-IT"
 title_separator          : "-"
 name                     : &name "Ralf"
 description              : &description "Looking at the future with enthusiasm"
