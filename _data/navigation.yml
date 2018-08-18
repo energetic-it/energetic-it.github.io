@@ -3,8 +3,8 @@ main:
   - title: "Quick-Start Guide"
     url: /docs/quick-start-guide/
   - title: "Posts"
-    url: /year-archive/
+    url: /pages/year-archive/
   - title: "Collections"
-    url: /collection-archive/
+    url: /pages/collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
