@@ -100,7 +100,7 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/buddypoke.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Looking at the future with enthusiasm"
   location         : "Netherlands"
   email            :
