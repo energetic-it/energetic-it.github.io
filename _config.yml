@@ -17,7 +17,7 @@ lang: en-US
 title: "Energetic IT"
 email:
 description: "Looking at the future with enthusiasm"
-baseurl: /docs # the optional subpath of your site, e.g. "/blog"
+baseurl: /example # the optional subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
   name: Ralf
