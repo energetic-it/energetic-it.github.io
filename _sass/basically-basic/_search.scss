@@ -7,7 +7,7 @@
   margin-right: 1rem;
   border: 0;
   outline: none;
-  background-color: transparent;
+  background-color: white;
   cursor: pointer;
   -webkit-transition: 0.2s;
   transition: 0.2s;
@@ -62,7 +62,7 @@
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    background-color: transparent;
+    background-color: white;
     @include fluid-type($min-vw, $max-vw, 24px, 32px);
   }
 
