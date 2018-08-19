@@ -38,11 +38,12 @@ algolia:
 # Build settings
 markdown: kramdown
 remote theme: mmistakes/jekyll-theme-basically-basic
-plugins: # previsously gems
+plugins: # previously gems
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-remote-theme
 feed:
   path: atom.xml
 
