@@ -23,12 +23,12 @@ author:
   name: Ralf
   twitter: RalfiedePalfie
   picture: 
-twitter_username:
-github_username:
+twitter_username: RalfiedePalfie
+github_username: energetic-it
 logo: # path of site logo, e.g. "/assets/images/logo.png"
-search: # true, false (default)
-search_full_content: false # true, false (default)
-search_provider: # lunr (default), algolia
+search: true # true, false (default)
+search_full_content: true # true, false (default)
+search_provider: lunr # (default), algolia
 algolia:
   application_id: # YOUR_APPLICATION_ID
   index_name: # YOUR_INDEX_NAME
@@ -87,13 +87,6 @@ defaults:
   - scope:
       path: "_posts"
       type: posts
-    values:
-      layout: post
-      read_time: true
-  # _recipes
-  - scope:
-      path: "_recipes"
-      type: recipes
     values:
       layout: post
       read_time: true
