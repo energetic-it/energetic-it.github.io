@@ -1,1 +1,1 @@
-# Blog for energetic-it.github.io
+# Blog for [energetic-it.github.io](energetic-it.github.io)
