@@ -104,7 +104,7 @@ Some searching around I found the __New-TimeSpan__ cmdlet with an Output of __Sy
 
 This resulted in the following splat:
 
-```ps
+```powershell
 $NamePolicy = Read-Host -Prompt 'Give the name of the new policy'
 
 $Time = New-TimeSpan -Hour 22 -Minute 00
@@ -134,7 +134,7 @@ Looking at both of the created Replication Policies, you can see clearly the dif
 
 > Note: don't forget to update the Azure.RM modules, this bit me in the beginning, my old scripts did not work anymore because of some changes.
 
-```ps
+```powershell
 #Requires -Modules AzureRM.profile, AzureRM.RecoveryServices, AzureRM.RecoveryServices.SiteRecovery
 
 # Update the modules to the latest version
