@@ -31,6 +31,9 @@ In comes __Powershell__ to the rescue :)
 
 I'll go a bit deep in details and show you the screenshots on how to create a replication policy.
 
+> Note: You don't have to have anything connected to the recovery vault.  
+> Create a new Azure subscription and a Recovery Vault and click along with the instructions below.
+
 | ||
 :-------------------------:|:-------------------------:
 ![asr-recovery-services](/assets/images/asr-recovery-services.png) | ![asr-vault](/assets/images/asr-vault.png)
