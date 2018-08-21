@@ -34,16 +34,19 @@ I'll go a bit deep in details and show you the screenshots on how to create a re
 | ||
 :-------------------------:|:-------------------------:
 ![asr-recovery-services](/assets/images/asr-recovery-services.png) | ![asr-vault](/assets/images/asr-vault.png)
+
 Find the Recovery Services Vault, and click on it.
 
 | ||
 :-------------------------:|:-------------------------:
 ![asr-vault-manage](/assets/images/asr-vault-manage.png) | ![asr-vault-manage-replication-policy](/assets/images/asr-vault-manage-replication-policy.png)
+
 Go down to __Manage__ and select _Site Recovery Infrastructure_ scroll down to __For System Center VMM__ and select the Replication Policies
 
 | ||
 :-------------------------:|:-------------------------:
 ![asr-vault-manage-replication-policy-add](/assets/images/asr-vault-manage-replication-policy-add.png) | ![asr-vault-manage-replication-policy-create-1](/assets/images/asr-vault-manage-replication-policy-create-1.png)
+
 Create a new Replication Policy and select Hyper-V as a source and target.
 
 | ||
