@@ -3,8 +3,6 @@ title: "Azure Site Recovery Replication Policy Bug"
 excerpt: ""
 categories:
   - ASR
-  - Powershell
-  - Azure
 tags: 
   - ASR
   - Azure
