@@ -3,6 +3,7 @@ title: "Azure Site Recovery Replication Policy Bug"
 excerpt: "There is a bug in ASR, when you create a new Replication Policy the Initial replication start time is created wrong"
 categories:
   - ASR
+  - Powershell
 tags: 
   - ASR
   - Azure
@@ -29,9 +30,9 @@ In comes __Powershell__ to the rescue :)
 
 ## The Setup
 
-I'll go a bit deep in details and show you the screenshots on how to create a replication policy.
+I'll go into the details and show you the screenshots on how to create a replication policy.
 
-> Note: You don't have to have anything connected to the recovery vault.  
+> Note: You don't need to have anything connected to the recovery vault.  
 > Create a new Azure subscription and a Recovery Vault and click along with the instructions below.
 
 | ||
