@@ -10,8 +10,7 @@ tags:
 last_modified_at: 2018-08-20T20:00:16-05:00
 ---
 
-At work we use [Azure Site Recovery](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-overview) (ASR) for a while now.  
-We use it primarily to synchronize the VM's between datacenters and use ASR for the orchestration.
+At work we use [Azure Site Recovery](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-overview) (ASR) for a while now. We use it primarily to synchronize the VM's between datacenters and use ASR for the orchestration.
 
 Not that long ago I rebuild our test ASR environment after some updates and came across a weird issue.
 
@@ -22,8 +21,8 @@ In comes __Powershell__ to the rescue :)
 ## TL;DR
 
 - This issue is as of this date still unresolved by Microsoft.
-- When a new Replication Policy is created (through the portal), the Initial replication start time is created wrong
-- As far as I know the only way to fix this, is to create the replication policy through Powershell
+- When a new Replication Policy is created (through the portal), the Initial replication start time is created wrong.
+- As far as I know the only way to fix this, is to create the replication policy through Powershell.
 
 ## The Setup
 
@@ -51,7 +50,7 @@ Create a new Replication Policy and select Hyper-V as a source and target.
 :-------------------------:|:-------------------------:
 ![asr-vault-manage-replication-policy-create-2.png](/assets/images/asr-vault-manage-replication-policy-create-2.png) |
 
-Choose for the Initial replication start time something else then Immediately or 07:45PM.
+Choose for the Initial replication start time something else then Immediately or 07:45PM.  
 Keep the rest default values (or not, doesn't really matter).
 
 ## Result
@@ -82,6 +81,7 @@ The thing that took me a little bit was to find out how to use the ReplicationSt
 When you check out the [docs page](https://docs.microsoft.com/en-us/powershell/module/azurerm.recoveryservices.siterecovery/new-azurermrecoveryservicesasrpolicy) it will tell you this:
 
 ### -ReplicationStartTime
+
 Specifies the replication start time.
 It must be no later than 24-hours from the start of the job.
 
