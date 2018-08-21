@@ -12,7 +12,7 @@ last_modified_at: 2018-08-20T20:00:16-05:00
 
 At work we use [Azure Site Recovery](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-overview) (ASR) for a while now. We use it primarily to synchronize the VM's between datacenters and use ASR for the orchestration.
 
-![arch-onprem-onprem](/assets/images/arch-onprem-onprem.png)
+![arch-onprem-onprem](/assets/images/arch-onprem-onprem.png)  
 [Image source](https://docs.microsoft.com/en-us/azure/site-recovery/hyper-v-vmm-architecture)
 
 Not that long ago I rebuild our test ASR environment after some updates and came across a weird issue.
