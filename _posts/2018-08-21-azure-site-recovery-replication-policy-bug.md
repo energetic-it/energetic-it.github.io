@@ -1,6 +1,6 @@
 ---
 title: "Azure Site Recovery Replication Policy Bug"
-excerpt: ""
+excerpt: "There is a bug in ASR, when you create a new Replication Policy the Initial replication start time is created wrong"
 categories:
   - ASR
 tags: 
