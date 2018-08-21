@@ -27,6 +27,9 @@ In comes __Powershell__ to the rescue :)
 - This issue is as of this date still unresolved by Microsoft.
 - When a new Replication Policy is created (through the portal), the Initial replication start time is created wrong.
 - As far as I know the only way to fix this, is to create the replication policy through Powershell.
+- __The impact__ is that the Replication Policy breaks everything if the initial time to synchronize isn't correct.
+  - It won't synchronize and it will give errors that don't point towards the replication policy.
+  - VM's will not replicate, ASR will not work.
 
 ## The Setup
 
