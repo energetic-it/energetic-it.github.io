@@ -4,6 +4,7 @@ excerpt: "There is a bug in ASR, when you create a new Replication Policy the In
 comments: true
 categories:
   - ASR
+  - Powershell
 tags: 
   - ASR
   - Azure
