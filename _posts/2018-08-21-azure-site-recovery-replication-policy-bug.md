@@ -67,7 +67,7 @@ Once the replication policy has been created, and you click back into the newly 
 
 Looking at it with Powershell we see the following:
 
-```ps
+```powershell
 # Get all the policies
 Get-AzureRmRecoveryServicesAsrPolicy  | Select-Object Name -ExpandProperty ReplicationProviderSettings
 
