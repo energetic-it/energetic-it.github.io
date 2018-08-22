@@ -2,7 +2,7 @@
 title: "Microsoft Azure Site Recovery - KB Archive"
 excerpt: "Since the KB Articles of Microsoft Azure Site Recovery are so hard to keep track of, I'm keeping an overview for me and my co-workers."
 categories:
-  - Posts
+  - Post
 tags: 
   - ASR
   - SystemCenter
