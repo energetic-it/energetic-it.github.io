@@ -1,14 +1,9 @@
-*.gem
-*.sublime-project
-*.sublime-workspace
-.bundle
-.DS_Store
-.jekyll-metadata
-.sass-cache
-_asset_bundler_cache
+# project
 _site
-codekit-config.json
-example/_site
-Gemfile.lock
-node_modules
-npm-debug.log*
+.sass-cache
+.vagrant
+
+# general
+.DS_Store
+Thumbs.db
+ehthumbs.db
