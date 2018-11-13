@@ -42,6 +42,6 @@ Add the AzureRM.Insights Module from the Gallery
 **Note:** Change the tag you want added, in this script the tag "CreatedBy" is used.  Also adjust the "@microsoft.com" with your own domain name to only get the username.
 
 {: .box-error}
-**Note:** The logs can only got max 90 days, so it won't find older resources :(. Adjust the "startTime" in the script to get more results.
+**Note:** The logs can only go back max 90 days, so it won't find older resources :(. Adjust the "startTime" in the script to get more results.
 
 <script src="https://gist.github.com/energetic-it/87ecbd1ffa428aed7abadc0d6d74b62d.js"></script>
