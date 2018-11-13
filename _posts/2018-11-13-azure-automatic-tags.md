@@ -5,10 +5,10 @@ subtitle: "An automatic way to tag any resource created."
 tags: [Azure, Tags, Powershell]
 ---
 
-After realising the importance of tagging within Azure, I went searching for solutions to help out.
-The one thing that annoyed me most is that my collegues did not use Tags and after a few months we had a hard time finding out who created what and if we could turn it off. 
+After realising the importance of tagging within Azure, I went searching for solutions to help out. The one thing that annoyed me most is that my collegues did not use Tags and after a few months we had a hard time finding out who created what and if we could turn it off.
 
 So first thing:
+
 - Create an Automation Account
 - Update Azure Modules
 - Add the AzureRM.Insights Module
@@ -24,7 +24,7 @@ Some screenshots:
 
 Update Azure Modules
 <tr>
-<td> <img src="/img/azure-modules-update.png" alt="azure-modules-update" style="width: 500px;"/> </td>
+<td> <img src="/img/azure-modules-update.png" alt="azure-modules-update"/> </td>
 </tr>
 
 Add the AzureRM.Insights Module from the Gallery
