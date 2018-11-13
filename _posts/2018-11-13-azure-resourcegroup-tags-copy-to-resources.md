@@ -11,7 +11,7 @@ The tags on the Resource Group (RG) are leading for all the other resources insi
 So what it does is copy all the Tags on the RG down to all the resources.  
 I decided not to append the tags, because then the old tags are not removed.  
 
-This[ Microsoft doc page](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-using-tags) gave me the idea.
+This [Microsoft doc page](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-using-tags) gave me the idea.
 
 {: .box-error}
 **Note:** Not all resources are able to hold tags. So in the script I added some types that gave me errors.
