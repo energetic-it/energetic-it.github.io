@@ -7,7 +7,7 @@ tags: [Azure, Tags, Powershell]
 
 After working with Azure for some time and realizing the importance of tagging within Azure, I went searching for solutions to help out.
 
-The one thing the drove me to concentrate on automatic tags were my colleagues that did not use Tags. So after a few months we had a hard time finding out who created what.
+The one thing that drove me to concentrate on automatic tags were my colleagues that did not use Tags. So after a few months we had a hard time finding out who created what.
 
 That drove me to a blog post by [Jason Spoon](http://jasonpoon.ca/tagging-azure-resource-group-with-owners/). Soon after I created my own version of the script and implemented the following:
 
