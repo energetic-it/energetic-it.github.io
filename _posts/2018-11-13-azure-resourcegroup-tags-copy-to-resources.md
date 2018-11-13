@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure ResourceGroup tags copy to resources"
+title: "Azure Resource Group tags copy to resources"
 subtitle: "A script to copy all the tags from the ResourceGroup down to the resources"
 tags: [Azure, Tags, Powershell]
 ---
