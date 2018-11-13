@@ -16,9 +16,7 @@ This [Microsoft doc page](https://docs.microsoft.com/en-us/azure/azure-resource-
 {: .box-error}
 **Note:** Not all resources are able to hold tags. So in the script I added some types that gave me errors.
 
-Like my other blog post about tags, I used an automation account to schedule it. See that [post](/posts/2018-11-13-azure-automatic-tags.md) for more info.
-
-See that [post](/_posts/2018-11-13-azure-automatic-tags.md) for more info.
+Like my other blog post about tags, I used an automation account to schedule it. See that [post](/2018-11-13-azure-automatic-tags) for more info.
 
 ## The Script
 
