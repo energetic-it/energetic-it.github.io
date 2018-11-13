@@ -14,7 +14,7 @@ I decided not to append the tags, because then the old tags are not removed.
 This [Microsoft doc page](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-using-tags) gave me the idea.
 
 {: .box-error}
-**Note:** Not all resources are able to hold tags. So in the script I added some types that gave me errors.
+**Note:** Not all resources are able to hold tags. So in the script it skips some resource types that gave me errors.
 
 Like my other blog post about tags, I used an automation account to schedule it. See that [post](/2018-11-13-azure-automatic-tags) for more info.
 
