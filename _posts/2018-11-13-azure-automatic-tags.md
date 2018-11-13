@@ -5,7 +5,11 @@ subtitle: "An 'automagic' way to tag any created resource."
 tags: [Azure, Tags, Powershell]
 ---
 
-After realising the importance of tagging within Azure, I went searching for solutions to help out. The one thing that annoyed me most is that my collegues did not use Tags and after a few months we had a hard time finding out who created what and if we could turn it off.
+After working with Azure for some time and realizing the importance of tagging within Azure, I went searching for solutions to help out.
+
+The one thing the drove me to concentrate on automatic tags were my colleagues that did not use Tags. So after a few months we had a hard time finding out who created what.
+
+That drove me to a blog post by [Jason Spoon](http://jasonpoon.ca/tagging-azure-resource-group-with-owners/). Soon after I created my own version of the script and implemented the following:
 
 So first thing:
 
@@ -17,8 +21,9 @@ So first thing:
 - Import an existing runbook
   - Import your powershell script
 - Run a Test
-- Save and Publish 
+- Save and Publish
 - Run the script to see if it works
+- Set up the scheduling
 
 Some screenshots:
 
@@ -32,8 +37,6 @@ Add the AzureRM.Insights Module from the Gallery
 <td> <img src="/img/azure-modules-gallery.png" alt="azure-modules-gallery" style="width: 350px;"/> </td>
 <td> <img src="/img/azure-modules-import.png" alt="azure-modules-import" style="width: 350px;"/> </td>
 </tr>
-
-Inspired by [Jason Spoon](http://jasonpoon.ca/tagging-azure-resource-group-with-owners/) I ended up with this script:
 
 {: .box-error}
 **Note:** Change the tag you want added, in this script the tag "CreatedBy" is used.  Also adjust the "@microsoft.com" with your own domain name to only get the username.
