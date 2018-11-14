@@ -10,15 +10,18 @@ redirect_from:
   - /dev/asr/powershell/2018/08/21/azure-site-recovery-replication-policy-bug.html
 ---
 
+{: .box-error}
+**Update:** 01-11-2018 - This bug seems to be fixed!
+When creating a new replication policy, the time is correct.
+
+---
+
 At work we use [Azure Site Recovery](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-overview) (ASR) for a while now. We use it primarily to synchronize the VM's between datacenters and use ASR for the orchestration.
 
 ![arch-onprem-onprem](/dev/img/arch-onprem-onprem.png)  
 [Image source](https://docs.microsoft.com/en-us/azure/site-recovery/hyper-v-vmm-architecture)
 
 Not that long ago I rebuild our test ASR environment after some updates and came across a weird issue.
-
-{: .box-error}
-**Update:** It seems they will fix this issue, see my forum post [here](https://social.msdn.microsoft.com/Forums/en-US/df46039c-258b-44f0-94ca-4ab3fd657f11/azure-site-recovery-replication-policies-initial-replication-start-time-broken?forum=hypervrecovmgr). To be continued..
 
 After creating a new replication policy, __nothing__ worked anymore. At first I figured it was due to the update of the agents on the System Center Virtual Machine Manager (SCVMM) servers.
 
