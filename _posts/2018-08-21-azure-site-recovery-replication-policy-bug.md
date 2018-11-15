@@ -45,21 +45,21 @@ I'll go into the details and show you the screenshots on how to create a replica
 
 <tr>
 <td> <img src="/img/asr-recovery-services.png" alt="asr-recovery-services" style="width: 350px;"/> </td>
-<td> <img src="/dev/img/asr-vault.png" alt="asr-vault" style="width: 350px;"/> </td>
+<td> <img src="/img/asr-vault.png" alt="asr-vault" style="width: 350px;"/> </td>
 </tr>
 
 Find the Recovery Services Vault, and click on it.
 
 <tr>
-<td> <img src="/dev/img/asr-vault-manage.png" alt="asr-vault-manage" style="width: 350px;"/> </td>
-<td> <img src="/dev/img/asr-vault-manage-replication-policy.png" alt="asr-vault-manage-replication-policy" style="width: 350px;"/> </td>
+<td> <img src="/img/asr-vault-manage.png" alt="asr-vault-manage" style="width: 350px;"/> </td>
+<td> <img src="/img/asr-vault-manage-replication-policy.png" alt="asr-vault-manage-replication-policy" style="width: 350px;"/> </td>
 </tr>
 
 Go down to __Manage__ and select _Site Recovery Infrastructure_ scroll down to __For System Center VMM__ and select the Replication Policies
 
 <tr>
-<td> <img src="/dev/img/asr-vault-manage-replication-policy-add.png" alt="asr-vault-manage-replication-policy-add" style="width: 350px;"/> </td>
-<td> <img src="/dev/img/asr-vault-manage-replication-policy-create-1.png" alt="asr-vault-manage-replication-policy-create-1" style="width: 350px;"/> </td>
+<td> <img src="/img/asr-vault-manage-replication-policy-add.png" alt="asr-vault-manage-replication-policy-add" style="width: 350px;"/> </td>
+<td> <img src="/img/asr-vault-manage-replication-policy-create-1.png" alt="asr-vault-manage-replication-policy-create-1" style="width: 350px;"/> </td>
 </tr>
 
 Create a new Replication Policy and select Hyper-V as a source and target.
