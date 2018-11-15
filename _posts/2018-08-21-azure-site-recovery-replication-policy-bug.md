@@ -44,7 +44,7 @@ I'll go into the details and show you the screenshots on how to create a replica
 **Note:** You don't need to have anything connected to the recovery vault. Create a new Azure subscription and a Recovery Vault and click along with the instructions below.
 
 <tr>
-<td> <img src="/dev/img/asr-recovery-services.png" alt="asr-recovery-services" style="width: 350px;"/> </td>
+<td> <img src="/img/asr-recovery-services.png" alt="asr-recovery-services" style="width: 350px;"/> </td>
 <td> <img src="/dev/img/asr-vault.png" alt="asr-vault" style="width: 350px;"/> </td>
 </tr>
 
