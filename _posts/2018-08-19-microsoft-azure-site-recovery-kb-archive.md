@@ -29,7 +29,7 @@ An easy [Google Search](https://www.google.com/search?q=Update+Rollup+*+for+Azur
 
 # Microsoft Azure Site Recovery Updates
 
-- [Update Rollup 31 for Azure Site Recovery __(version 5.1.3700.0)__](https://support.microsoft.com/en-us/help/4478871/update-rollup-31-for-azure-site-recovery)
+- [Update Rollup 31 for Azure Site Recovery (version 5.1.3700.0)](https://support.microsoft.com/en-us/help/4478871/update-rollup-31-for-azure-site-recovery)
 - [Update Rollup 30 for Azure Site Recovery __(version 5.1.3650.0)__](https://support.microsoft.com/en-us/help/4468181/azure-site-recovery-update-rollup-30) [No agent update]
 - [Update Rollup 29 for Azure Site Recovery __(version 5.1.3650.0)__](https://support.microsoft.com/en-us/help/4466466/update-rollup-29-for-azure-site-recovery)
 - [Update Rollup 28 for Azure Site Recovery (version 5.1.3600.0)](https://support.microsoft.com/en-us/help/4460079/update-rollup-28-for-azure-site-recovery)
