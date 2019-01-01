@@ -16,7 +16,8 @@ I'm going to post a few blogs about it hoping it will make more sense. Starting 
 
 In an other post we'll dive into how to make it cheaper.
 
->Note: Reading this post will give you insight on how Microsoft charges in Azure. For specific information, see the Azure Pricing calculator: https://azure.microsoft.com/en-us/pricing/calculator/
+{: .box-error}
+**Note:** Reading this post will give you insight on how Microsoft charges in Azure. For specific information, see the [Azure Pricing calculator](https://azure.microsoft.com/en-us/pricing/calculator/)
 
 So lets break things down in what we already know. The following make up an Azure VM:
 
@@ -47,7 +48,7 @@ Within any VM series the compute fee is pretty linear; a VM with twice the size 
 
 If you want to reduce your compute resource rates, check out Azure Reserved VM Instances (more on that in another post)
 
-Link: https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sizes
+[Link](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sizes)
 
 ## OS use
 
@@ -61,7 +62,7 @@ Within the same VM series, the Windows rental fee is usually based on the VM siz
 Customers with a Software Assurance (SA) on Windows Server can use a benefit called "Azure Hybrid Benefit for Windows Server".
 With this, you can use these licenses to avoid having to pay for Azure fees for Windows Server OS rental, resulting in an overal cost saving. (more on that in another post).
 
-Link: https://azure.microsoft.com/en-us/pricing/hybrid-benefit/
+[Link](https://azure.microsoft.com/en-us/pricing/hybrid-benefit/)
 
 ## Storage
 
