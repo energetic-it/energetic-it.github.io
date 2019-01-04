@@ -9,7 +9,7 @@ redirect_from:
 
 # Microsoft Azure Site Recovery - KB Archive
 
-_[updated: 29-11-2018]_
+_[updated: 04-01-2019]_
 
 Since the KB Articles of Microsoft Azure Site Recovery are so hard to keep track of, I'm keeping an overview for me and my co-workers.
 
@@ -29,6 +29,7 @@ An easy [Google Search](https://www.google.com/search?q=Update+Rollup+*+for+Azur
 
 # Microsoft Azure Site Recovery Updates
 
+- [Update Rollup 32 for Azure Site Recovery (version 5.1.3800.0)](https://support.microsoft.com/en-us/help/4485985/update-rollup-32-for-azure-site-recovery)
 - [Update Rollup 31 for Azure Site Recovery (version 5.1.3700.0)](https://support.microsoft.com/en-us/help/4478871/update-rollup-31-for-azure-site-recovery)
 - [Update Rollup 30 for Azure Site Recovery __(version 5.1.3650.0)__](https://support.microsoft.com/en-us/help/4468181/azure-site-recovery-update-rollup-30) [No agent update]
 - [Update Rollup 29 for Azure Site Recovery __(version 5.1.3650.0)__](https://support.microsoft.com/en-us/help/4466466/update-rollup-29-for-azure-site-recovery)
@@ -43,7 +44,7 @@ An easy [Google Search](https://www.google.com/search?q=Update+Rollup+*+for+Azur
 
 # Microsoft Azure Site Recovery Changes
 
-{: .box-note} 
-Here I'll only highlight the changes that are odd of noteworthy:
+{: .box-note}
+Here I'll only highlight the changes that are odd or noteworthy:
 
 There is no agent update from Update 29 to 30. Most of the changes are made server side.
