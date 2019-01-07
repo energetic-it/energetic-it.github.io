@@ -2,7 +2,7 @@
 layout: post
 title: "Automatic tagging within Azure subscription"
 subtitle: "An 'automagic' way to tag any created resource."
-tags: [Azure, Tags, Powershell]
+tags: [Azure, Powershell]
 ---
 
 After working with Azure for some time and realizing the importance of tagging within Azure, I went searching for solutions to help out.
