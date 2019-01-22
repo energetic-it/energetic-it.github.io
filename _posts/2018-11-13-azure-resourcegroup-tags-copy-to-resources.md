@@ -3,6 +3,7 @@ layout: post
 title: "Azure Resource Group tags copy to resources"
 subtitle: "A script to copy all the tags from the ResourceGroup down to the resources"
 tags: [Azure, Powershell]
+bigimg: /img/clouds-norway.jpg
 ---
 
 The following script is an example on how you can manage your Tags in Azure.  

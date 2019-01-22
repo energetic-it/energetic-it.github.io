@@ -3,6 +3,7 @@ layout: post
 title: "Azure VM costs in-depth"
 subtitle: "What factors contribute the Azure VM Costs?"
 tags: [Azure]
+bigimg: /img/clouds-norway.jpg
 redirect_from:
   - https://energetic-it.github.io/2018-12-07-azure-vm-costs-in-depth.html
   - https://energetic-it.github.io//2018-12-07-azure-vm-costs-in-depth.html
