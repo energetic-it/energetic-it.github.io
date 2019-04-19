@@ -9,7 +9,7 @@ redirect_from:
 
 # Microsoft Azure Site Recovery - KB Archive
 
-_[updated: 04-01-2019]_
+_[updated: 19-04-2019]_
 
 Since the KB Articles of Microsoft Azure Site Recovery are so hard to keep track of, I'm keeping an overview for me and my co-workers.
 
@@ -29,6 +29,9 @@ An easy [Google Search](https://www.google.com/search?q=Update+Rollup+*+for+Azur
 
 # Microsoft Azure Site Recovery Updates
 
+- [Update Rollup 35 for Azure Site Recovery (version 5.1.4000.0)](https://support.microsoft.com/en-us/help/4494485/update-rollup-35-for-azure-site-recovery)
+- [Update Rollup 34 for Azure Site Recovery (version 5.1.3950.0) - Hotfix](https://support.microsoft.com/en-us/help/4490016/update-rollup-34-for-azure-site-recovery)
+- [Update Rollup 33 for Azure Site Recovery (version 5.1.3900.0)](https://support.microsoft.com/en-us/help/4489582/update-rollup-33-for-azure-site-recovery)
 - [Update Rollup 32 for Azure Site Recovery (version 5.1.3800.0)](https://support.microsoft.com/en-us/help/4485985/update-rollup-32-for-azure-site-recovery)
 - [Update Rollup 31 for Azure Site Recovery (version 5.1.3700.0)](https://support.microsoft.com/en-us/help/4478871/update-rollup-31-for-azure-site-recovery)
 - [Update Rollup 30 for Azure Site Recovery __(version 5.1.3650.0)__](https://support.microsoft.com/en-us/help/4468181/azure-site-recovery-update-rollup-30) [No agent update]
