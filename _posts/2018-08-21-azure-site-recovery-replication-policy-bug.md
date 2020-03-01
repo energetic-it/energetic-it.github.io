@@ -18,7 +18,7 @@ When creating a new replication policy, the time is correct.
 
 At work we use [Azure Site Recovery](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-overview) (ASR) for a while now. We use it primarily to synchronize the VM's between datacenters and use ASR for the orchestration.
 
-![arch-onprem-onprem](/dev/img/arch-onprem-onprem.png)  
+![arch-onprem-onprem](/img/arch-onprem-onprem.png)  
 [Image source](https://docs.microsoft.com/en-us/azure/site-recovery/hyper-v-vmm-architecture)
 
 Not that long ago I rebuild our test ASR environment after some updates and came across a weird issue.
@@ -64,7 +64,7 @@ Go down to __Manage__ and select _Site Recovery Infrastructure_ scroll down to _
 
 Create a new Replication Policy and select Hyper-V as a source and target.
 
-![asr-vault-manage-replication-policy-create-2.png](/dev/img/asr-vault-manage-replication-policy-create-2.png)
+![asr-vault-manage-replication-policy-create-2.png](/img/asr-vault-manage-replication-policy-create-2.png)
 
 Choose for the Initial replication start time something else then Immediately or 07:45PM.  
 Keep the rest default values (or not, doesn't really matter).
@@ -72,7 +72,7 @@ Keep the rest default values (or not, doesn't really matter).
 ## Result
 
 Once the replication policy has been created, and you click back into the newly created policy, it shows 07:45 PM. Even though in this example we put in 10:00PM.  
-![asr-vault-manage-replication-policy-init-time.png](/dev/img/asr-vault-manage-replication-policy-init-time.png)
+![asr-vault-manage-replication-policy-init-time.png](/img/asr-vault-manage-replication-policy-init-time.png)
 
 Looking at it with `Powershell` we see the following:
 
@@ -82,7 +82,7 @@ Get-AzureRmRecoveryServicesAsrPolicy  | Select-Object Name -ExpandProperty Repli
 
 ```
 
-![asr-powershell-policy-initialtime](/dev/img/asr-powershell-policy-initialtime.png)
+![asr-powershell-policy-initialtime](/img/asr-powershell-policy-initialtime.png)
 
 The time is set to something, except the time what we want.
 
@@ -141,7 +141,7 @@ New-AzureRmRecoveryServicesAsrPolicy @PolicySplat
 
 Looking at both of the created Replication Policies, you can see clearly the differences.
 
-![asr-powershell-policy-result](/dev/img/asr-powershell-policy-result.png)
+![asr-powershell-policy-result](/img/asr-powershell-policy-result.png)
 
 ## The Script
 

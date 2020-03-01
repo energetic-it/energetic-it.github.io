@@ -1,6 +1,6 @@
 /* .highlight  { background: #ffffff; } Dean commented out */
 /* .highlight pre { background-color: #fff; font-size: 16px } */
-.highlight .c { color: #999988; font-style: italic } /* Comment */
+.highlight .c { color: #ffffff; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */
 .highlight .o { font-weight: bold } /* Operator */
@@ -33,12 +33,12 @@
 .highlight .no { color: #008080 } /* Name.Constant */
 .highlight .ni { color: #800080 } /* Name.Entity */
 .highlight .ne { color: #990000; font-weight: bold } /* Name.Exception */
-.highlight .nf { color: #990000; font-weight: bold } /* Name.Function */
-.highlight .nn { color: #555555 } /* Name.Namespace */
-.highlight .nt { color: #000080 } /* Name.Tag */
+.highlight .nf { color: #b13030; font-weight: bold } /* Name.Function */
+.highlight .nn { color: #009999 } /* Name.Namespace */
+.highlight .nt { color: #7474ce } /* Name.Tag */
 .highlight .nv { color: #008080 } /* Name.Variable */
 .highlight .ow { font-weight: bold } /* Operator.Word */
-.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .w { color: #e2e2e2 } /* Text.Whitespace */
 .highlight .mf { color: #009999 } /* Literal.Number.Float */
 .highlight .mh { color: #009999 } /* Literal.Number.Hex */
 .highlight .mi { color: #009999 } /* Literal.Number.Integer */
