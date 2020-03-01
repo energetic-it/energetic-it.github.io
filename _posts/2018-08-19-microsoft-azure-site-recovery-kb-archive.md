@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: post
 title: "Microsoft Azure Site Recovery - KB Archive"
 subtitle: "Since the KB Articles of Microsoft Azure Site Recovery are so hard to keep track of, I'm keeping an overview for me and my co-workers."
 tags: [ASR, AzureSiteRecovery]
