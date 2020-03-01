@@ -9,25 +9,20 @@ redirect_from:
 
 # Microsoft Azure Site Recovery - KB Archive
 
-_[updated: 24-sept-2019]_
+_[updated: 01-march-2020]_
 
 Since the KB Articles of Microsoft Azure Site Recovery are so hard to keep track of, I'm keeping an overview for me and my co-workers.
 
-{: .box-note}
-**Update:** I just found this [page](https://azure.microsoft.com/en-us/updates/?product=site-recovery). It seems Microsoft does post (sometimes) links to the new ASR updates! - Update: Not that often :(
-
 {: .box-error}
-**Note:** When you install: Update Rollup 5 for System Center 2016 Virtual Machine Manager, the ASR client needs to be upgraded to version 5.1.3100 or later. Older versions are not supported!
-
-To upgrade Microsoft Azure Site Recovery Provider (also known as DRA), follow these steps:
-
-- Uninstall the existing version of DRA.
-- Install Update Rollup 5.
-- Install version 5.1.3100 or a later version of DRA.
+**Note:** Deprecation of disaster recovery between customer-managed sites (with VMM) using Azure Site Recovery. See the [link](https://docs.microsoft.com/en-us/azure/site-recovery/site-to-site-deprecation) for more info
 
 An easy [Google Search](https://www.google.com/search?q=Update+Rollup+*+for+Azure+Site+Recovery+site:https://support.microsoft.com/en-us/help&lr=&hl=en&source=lnt&tbs=sbd:1,qdr:y&sa=X&ved=0ahUKEwiT7fKn9qrbAhVRr6QKHeXNCc0QpwUIIA&biw=1920&bih=974) to check if new releases have been made.
 
 # Microsoft Azure Site Recovery Updates
+
+- [Update Rollup 43 for Azure Site Recovery (version 5.1.5300.0)](https://support.microsoft.com/en-us/help/4537047/update-rollup-43-for-azure-site-recovery)
+- [Update Rollup 42 for Azure Site Recovery (version 5.1.5200.0)](https://support.microsoft.com/en-us/help/4531426/update-rollup-42-for-azure-site-recovery)
+- [Update Rollup 41 for Azure Site Recovery (version 5.1.5100.0)](https://support.microsoft.com/en-us/help/4528026/update-rollup-41-for-azure-site-recovery)
 
 - [Update Rollup 40 for Azure Site Recovery (version 5.1.4800.0)](https://support.microsoft.com/en-us/help/4521530/update-rollup-40-for-azure-site-recovery)
   - Prerequisites: Recovery Provider (version 5.1.4400 or a later version)
