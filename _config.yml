@@ -41,16 +41,17 @@ avatar: "/img/buddypoke.png"
 # --- Background colour/image options --- #
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
+# https://www.w3schools.com/colors/colors_picker.asp?colorhex=FFF0F5
 
-navbar-col: "#F5F5F5"
-navbar-text-col: "#404040"
+navbar-col: "#4d4d4d"  # Grey Darker - Was WhiteSmoke "#F5F5F5"
+navbar-text-col: "#d9d9d9" # Gray - 85% - Was - Grey 40% - "#404040"
 navbar-children-col: "#F5F5F5"
-page-col: "#FFFFFF"
+page-col: "#808080" # Grey Normal - Was white :"FFFFFF"
 link-col: "#008AFF"
 hover-col: "#0085A1"
-footer-col: "#F5F5F5"
+footer-col: "#4d4d4d" # Grey Darker - Was WhiteSmoke "#F5F5F5"
 footer-text-col: "#777777"
-footer-link-col: "#404040"
+footer-link-col: "#d9d9d9"  # Gray - 85% - Was - Grey 40% - "#404040"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
@@ -238,7 +239,6 @@ prose:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-redirect-from
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
