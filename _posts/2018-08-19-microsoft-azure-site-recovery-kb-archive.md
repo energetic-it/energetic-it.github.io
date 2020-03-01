@@ -21,9 +21,11 @@ An easy [Google Search](https://www.google.com/search?q=Update+Rollup+*+for+Azur
 # Microsoft Azure Site Recovery Updates
 
 - [Update Rollup 43 for Azure Site Recovery (version 5.1.5300.0)](https://support.microsoft.com/en-us/help/4537047/update-rollup-43-for-azure-site-recovery)
+  - Prerequisites: Recovery Provider (version 5.1.4900 or a later version)
 - [Update Rollup 42 for Azure Site Recovery (version 5.1.5200.0)](https://support.microsoft.com/en-us/help/4531426/update-rollup-42-for-azure-site-recovery)
+  - Prerequisites: Recovery Provider (version 5.1.4800 or a later version)
 - [Update Rollup 41 for Azure Site Recovery (version 5.1.5100.0)](https://support.microsoft.com/en-us/help/4528026/update-rollup-41-for-azure-site-recovery)
-
+  - Prerequisites: Recovery Provider (version 5.1.4500 or a later version)
 - [Update Rollup 40 for Azure Site Recovery (version 5.1.4800.0)](https://support.microsoft.com/en-us/help/4521530/update-rollup-40-for-azure-site-recovery)
   - Prerequisites: Recovery Provider (version 5.1.4400 or a later version)
 - [Update Rollup 39 for Azure Site Recovery (version 5.1.4600.0)](https://support.microsoft.com/en-us/help/4517283/update-rollup-39-for-azure-site-recovery)
