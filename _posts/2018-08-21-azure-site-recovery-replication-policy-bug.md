@@ -76,7 +76,7 @@ Once the replication policy has been created, and you click back into the newly 
 
 Looking at it with `Powershell` we see the following:
 
-```powershell
+```text
 # Get all the policies
 Get-AzureRmRecoveryServicesAsrPolicy  | Select-Object Name -ExpandProperty ReplicationProviderSettings
 
@@ -101,7 +101,7 @@ When you check out the [docs page](https://docs.microsoft.com/en-us/powershell/m
 Specifies the replication start time.
 It must be no later than 24-hours from the start of the job.
 
-```yaml
+```text
 Type: [System.TimeSpan]
 Parameter Sets: HyperVToAzure, EnterpriseToEnterprise
 Aliases:
@@ -117,7 +117,7 @@ Some searching around I found the `New-TimeSpan` with an Output of `System.TimeS
 
 This resulted in the following splat:
 
-```powershell
+```text
 $NamePolicy = Read-Host -Prompt 'Give the name of the new policy'
 
 $Time = New-TimeSpan -Hour 22 -Minute 00
