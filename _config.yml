@@ -72,28 +72,28 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
    rss: true
-#  email: "someone@example.com"
-#  facebook: daattali
+#  email: 
+#  facebook: 
    github: energetic-it
    twitter: RalfiedePalfie
-#  reddit: yourname
+#  reddit: 
 
-#  linkedin: daattali
-#  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  youtube: user/deanat78
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
+#  linkedin: 
+#  xing: 
+#  stackoverflow: 
+#  snapchat: 
+#  instagram: 
+#  youtube: 
+#  spotify: 
+#  telephone: 
+#  steam: 
+#  twitch: 
+#  yelp: 
 
 # Select which share links to show in posts
 share-links-active:
   twitter: true
-# facebook: true
+# facebook: false
   linkedin: true
 
 # How to display the link to the website in the footer
@@ -122,7 +122,7 @@ share-links-active:
 # --- Comments --- #
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-# disqus: ""
+disqus: "disqus_rRvzpKgEDU"
 
 # To use Facebook Comments, fill in a Facebook App ID
 # fb_comment_id: ""
