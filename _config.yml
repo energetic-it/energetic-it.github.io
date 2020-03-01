@@ -43,15 +43,15 @@ avatar: "/img/buddypoke.png"
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 # https://www.w3schools.com/colors/colors_picker.asp?colorhex=FFF0F5
 
-navbar-col: "#4d4d4d"  # Grey Darker - Was WhiteSmoke "#F5F5F5"
-navbar-text-col: "#d9d9d9" # Gray - 85% - Was - Grey 40% - "#404040"
-navbar-children-col: "#F5F5F5"
-page-col: "#808080" # Grey Normal - Was white :"FFFFFF"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#4d4d4d" # Grey Darker - Was WhiteSmoke "#F5F5F5"
-footer-text-col: "#777777"
-footer-link-col: "#d9d9d9"  # Gray - 85% - Was - Grey 40% - "#404040"
+navbar-col: "#000000"  # Was WhiteSmoke "#F5F5F5"
+navbar-text-col: "#d9d9d9" # Was - Grey 40% - "#404040"
+navbar-children-col: "#1a1a1a"
+page-col: "#000000" # Was white :"FFFFFF"
+link-col: "#005299"
+hover-col: "#006a80"
+footer-col: "#000000" # Was WhiteSmoke "#F5F5F5"
+footer-text-col: "#0d0d0d"
+footer-link-col: "#1a1a1a"  # Was - Grey 40% - "#404040"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
