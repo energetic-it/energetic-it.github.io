@@ -117,7 +117,7 @@ Some searching around I found the `New-TimeSpan` with an Output of `System.TimeS
 
 This resulted in the following splat:
 
-```text
+```powershell
 $NamePolicy = Read-Host -Prompt 'Give the name of the new policy'
 
 $Time = New-TimeSpan -Hour 22 -Minute 00
