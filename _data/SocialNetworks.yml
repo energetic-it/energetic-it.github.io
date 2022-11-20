@@ -6,6 +6,24 @@
 #            site.social-network-links.<key>
 #   icon: Specify a valid fontawesome icon class
 
+
+# <font-awesome-icon icon="fa-brands fa-mastodon" />
+
+mastodon-techhub:
+  name: "Mastodon - TechHub.social"
+  baseURL: "https://techhub.social/"
+  icon: "fa-brands fa-mastodon"
+
+mastodon-mstdn:
+  name: "Mastodon - Mstdn.social"
+  baseURL: "https://mstdn.social/"
+  icon: "fa-brands fa-mastodon"
+
+mastodon-techie:
+  name: "Mastodon - Techie.community"
+  baseURL: "https://techie.community/"
+  icon: "fa-brands fa-mastodon"
+
 facebook:
   name: "Facebook"
   baseURL: "https://www.facebook.com/"

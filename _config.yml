@@ -73,29 +73,34 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
    rss: true
-#  email: 
-#  facebook: 
+#  email:
+#  facebook:
    github: energetic-it
-   twitter: RalfiedePalfie
-#  reddit: 
+   mastodon-mstdn: "@dblan"
+   mastodon-techhub: "@dblan"
+   mastodon-techie: "@dblan"
+#  reddit:
 
-#  linkedin: 
-#  xing: 
-#  stackoverflow: 
-#  snapchat: 
-#  instagram: 
-#  youtube: 
-#  spotify: 
-#  telephone: 
-#  steam: 
-#  twitch: 
-#  yelp: 
+#  linkedin:
+#  xing:
+#  stackoverflow:
+#  snapchat:
+#  instagram:
+#  youtube:
+#  spotify:
+#  telephone:
+#  steam:
+#  twitch:
+#  yelp:
 
 # Select which share links to show in posts
 share-links-active:
-  twitter: true
+  mastodon-mstdn: true
+  mastodon-techhub: true
+  mastodon-techie: true
+  twitter: false
 # facebook: false
-  linkedin: true
+  linkedin: false
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
