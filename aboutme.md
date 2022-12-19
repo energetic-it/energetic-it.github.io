@@ -17,4 +17,4 @@ My name is Ralf
 
 <a rel="me" href="https://hachyderm.io/@dblan"></a>
 <a rel="me" href="https://mstdn.social/@dblan"></a>
-<a rel="me" href="https://techie.community/@dblan"></a>
+<a rel="me" href="https://infosec.exchange/@dblan">Mastodon</a>
